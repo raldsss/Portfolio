@@ -39,10 +39,16 @@ body {
 }
 
 
-.navbar-nav .nav-link {
+.nav-link{
+
   font-size: 1.7rem;
-  color: #000;
   margin-left: 2rem;
+  border-left:5px solid #000 ;
+  border-top:1px solid #000 ;
+  border-bottom:1px solid #000 ;
+  
+  border-radius: 10px;
+  padding: 7px 20px ;
 }
 
 .navbar-nav .nav-link:hover,
@@ -54,7 +60,7 @@ body {
   color: #0ef;
 }
 .nav-link:hover{
-  background: #121313;
+  background: #000;
   border-radius: 10px;
 }
 
@@ -116,8 +122,8 @@ span {
   color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius: 10px;
-  font-size: 18px;
+  border-radius: 50%;
+  font-size: 10px;
 }
 
 #myBtn:hover {
@@ -177,6 +183,7 @@ span {
   html {
     font-size: 55%;
   }
+  
 
 }
 
@@ -185,6 +192,14 @@ span {
     padding: 10rem 3% 2rem;
     
   }
+  .nav-link {
+    border-left:none ;
+    border-top:none ;
+    border-bottom:none ;
+  
+
+  }
+
 
 
   .footer {
@@ -204,6 +219,13 @@ span {
   }
   a{
     color: #fefefe;
+  }
+  .nav-link {
+    border-left:none ;
+    border-top:none ;
+    border-bottom:none ;
+  
+
   }
   .navbar-collapse {
     position: absolute;
@@ -254,8 +276,8 @@ border: 1px solid #585858;
   .home-content h1 {
     font-size: 5rem;
   }
-  li{
-    color: #fefefe;
+  #list{
+    color: #000;
   }
 
   .home-img img {
@@ -266,7 +288,7 @@ border: 1px solid #585858;
   #myBtn {
     display: none;
     position: fixed;
-    bottom: 90px;
+    bottom: 20px;
     right: 10px;
     z-index: 99;
     border: none;
@@ -276,8 +298,8 @@ border: 1px solid #585858;
     color: white;
     cursor: pointer;
     padding: 7px;
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 50%;
+    font-size: 10px;
   }
 
   .contact-info {
@@ -329,8 +351,8 @@ border: 1px solid #585858;
   }
   .project-content{
     position: relative;
-   top: 2rem;
-   left: 18rem;
+   top: 5rem;
+   left: 5rem;
    min-width: 300px;
   }
   canvas {
@@ -455,7 +477,7 @@ span{
   width: 60vw;
   border-radius: 10px;
   background-color: #fefefe;
-  margin-left: -20rem;
+  margin-left: -5rem;
 }
 
 /* New styles for the Contact section */
