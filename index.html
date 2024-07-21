@@ -14,15 +14,15 @@
 </head>
 <style></style>
 <body>
-    <header class="header">
+    <header class="header bg-dark">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <nav class="navbar navbar-expand-lg navbar-dark">
-                        <a href="#" class="navbar-brand" style=" color: #000;">My Portfolio</a>
+                    <nav class="navbar navbar-expand-lg navbar-dark ">
+                        <a href="#" class="navbar-brand" style=" color: #fefefe;">My Portfolio</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fas fa-bars" style=" color: #000;"></i>
+                            <i class="fas fa-bars" style=" color: #fefefe;"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ml-auto" >
@@ -58,12 +58,12 @@
                         <h3>Hello, I'am</h3>
                         <h1>Gerald Escare</h1>
                         <h3>And I'm a <span id="typing-text"></span></h3>
-                        <div class="social-media">
+                        <!-- <div class="social-media">
                             <a href="#"><i class='fab fa-facebook'></i></a>
                             <a href="#"><i class='fab fa-instagram'></i></a>
                             <a href="#"><i class="fab fa-google"></i></a>
                             <a href="#"><i class="fab fa-viber"></i></a>
-                        </div>
+                        </div> -->
                         <button class="btn" onclick="downloadCV()">Download CV</button>
                         <a id="downloadLink" href="resume.pdf" download="resume.pdf" class="hide"></a>
                     </div>
@@ -153,14 +153,7 @@
                 <p class="description">Developed of Alumni Employment Tracker System to track the alumni employment status.</p>
             </div>
         </div>
-        <!-- <div class="cards">
-            <img src="nature-conservation.jpg" alt="Nature Conservation">
-            <div class="card-content">
-                <p class="date">December 01, 2023</p>
-                <h3>Alumni Employment Tracker System</h3>
-                <p class="description">Developed of Alumni Employment Tracker System to track the alumni employment status.</p>
-            </div>
-        </div> -->
+    
     </div>
 </section>
 
@@ -210,13 +203,28 @@
  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <!-- footer -->
     <footer class="footer bg-dark text-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="text-center">Copyright &copy; 2024 by Ge<span class="rald">Rald</span> | All Rights Reserved</p>
-                </div>
+    
+            <div class="footer-content">
+                <!-- <div class="social-icons"> -->
+                    <div class="social-media">
+                        <a href="#"><i class='fab fa-facebook'></i></a>
+                        <a href="#"><i class='fab fa-instagram'></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        <a href="#"><i class="fab fa-viber"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                <!-- </div> -->
+                <nav class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#project">Projects</a>
+                    <a href="#contact">Contact us</a>
+                </nav>
             </div>
-        </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gerald | All Rights Reserved</p>
+            </div>
+          
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
